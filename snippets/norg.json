@@ -38,49 +38,49 @@
 
     "bold": {
         "prefix": "bold",
-        "body": ["*$0*"],
+        "body": ["*$1*"],
         "description": "bold words"
     },
     "italic": {
         "prefix": "italic",
-        "body": ["/$0/"],
+        "body": ["/$1/"],
         "description": "italic words"
     },
     "underline": {
         "prefix": "underline",
-        "body": ["_$0_"],
+        "body": ["_$1_"],
         "description": "underline words"
     },
     "spoiler": {
         "prefix": "spoiler",
-        "body": ["!$0!"],
+        "body": ["!$1!"],
         "description": "spoiler"
     },
     "strikethrough": {
         "prefix": "strikethrough",
-        "body": ["-$0-"],
+        "body": ["-$1-"],
         "description": "strike through"
     },
     "inlinecomment": {
         "prefix": "inlinecomment",
-        "body": ["%$0%"],
+        "body": ["%$1%"],
         "description": "inline comment"
     },
 
     "inlinecode": {
         "prefix": "inlinecode",
-        "body": ["`$0`"],
+        "body": ["`$1`"],
         "description": "inline code"
     },
     "code": {
         "prefix": "code",
-        "body": ["@code ${1:lang}", "$0", "@end"],
+        "body": ["@code ${1:lang}", "$2", "@end"],
         "description": "code block"
     },
 
     "data": {
         "prefix": "data",
-        "body": ["@data", "$0", "@end"],
+        "body": ["@data", "$1", "@end"],
         "description": "data tags"
     },
 
@@ -97,33 +97,33 @@
 
     "subscript": {
         "prefix": "subscript",
-        "body": [",$0,"],
+        "body": [",$1,"],
         "description": "subscript"
     },
     "superscript": {
         "prefix": "superscript",
-        "body": ["^$0^"],
+        "body": ["^$1^"],
         "description": "superscript"
     },
     "inlinemath": {
         "prefix": "inlinemath",
-        "body": ["$$0$"],
+        "body": ["$$1$"],
         "description": "inline math"
     },
     "rigidmath": {
         "prefix": "rigidmath",
-        "body": ["$|$0|$"],
+        "body": ["$|$1|$"],
         "description": "inline math (rigid syntax version)"
     },
     "math": {
         "prefix": "math",
-        "body": ["@math", "$0", "@end"],
+        "body": ["@math", "$1", "@end"],
         "description": "math block"
     },
 
     "table": {
         "prefix": "table",
-        "body": ["@table", "$0", "@end"],
+        "body": ["@table", "$1", "@end"],
         "description": "table"
     },
 
