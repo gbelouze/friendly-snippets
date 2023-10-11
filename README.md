@@ -1,3 +1,12 @@
+Note from @gbelouze: the snippets in the upstream repo are not consistent for
+the last jump. Sometimes the last jump is at the end of the snippet, sometimes 
+not. 
+I *always* want the last placeholder to be at the end of the snippet, so that's
+what this fork changes.
+
+Note that this is still a WIP, I'll update the faulty snippets as I find them 
+in my personal use.
+
 # Friendly Snippets
 
 Snippets collection for a set of different programming languages.
